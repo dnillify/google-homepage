@@ -4,11 +4,18 @@ body {
     height: 100%;
     font-size: 13px;
     font-family: arial,sans-serif;
+    color: #70757a;
 }
 
 a {
-    color: black;
+    color: #70757a;
     text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top-link {
+    color: black;
 }
 
 a:hover {
@@ -42,7 +49,7 @@ a:hover {
 }
 
 #content {
-    padding-top: 250px;
+    padding-top: 150px;
     text-align: center;
 }
 
@@ -71,6 +78,8 @@ a:hover {
     display: inline-block;
     height: 30px;
     vertical-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .vertcon {
@@ -87,6 +96,7 @@ a:hover {
     line-height: 30px;
     text-align: center;
     color: white;
+    font-size: 20px;
 }
 
 #footer-left {
@@ -97,15 +107,12 @@ a:hover {
 
 #footer-center {
     width: 250px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 #footer-right {
     width: 250px;
-    display: flex;
-    justify-content: space-between;
-    
+    text-align: right;
 }
 
 #bottomcon {
@@ -122,5 +129,47 @@ a:hover {
     border: 1px solid #dadce0;
     height: 40px;
     width: 500px;
+    outline: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#searchbox:hover {
+    box-shadow: 0 1px 2px 2px #dadce0;
+    border: 0;
+}
+
+
+.button {
+    margin: 10px;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    padding: 0 16px;
+    line-height: 27px;
+}
+
+.button:hover {
+    border-color: #dadce0;
+}
+
+#mag {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    height: 20px;
+}
+
+#microphone {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 20px;
+}
+
+#search-wrapper {
+    position: relative;
+    width: 500px;
+    height: 40px;
     margin: 20px;
 }
