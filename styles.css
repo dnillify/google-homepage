@@ -100,18 +100,17 @@ a:hover {
 }
 
 #footer-left {
-    width: 250px;
-    display: flex;
-    justify-content: space-between;
+    width: 300px;
+    text-align: left;
 }
 
 #footer-center {
-    width: 250px;
+    width: 300px;
     text-align: center;
 }
 
 #footer-right {
-    width: 250px;
+    width: 300px;
     text-align: right;
 }
 
